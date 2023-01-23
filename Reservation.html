@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Proyek Kelompok 8</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="Image/Logo.png" class="Logo">
+      <ul>
+          <li><a href="main.html">Home</a></li>
+          <li><a href="Story.html">Our Story</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="Reservation.html">Reserve</a></li>
+      </ul>
+  </div>
+</div>
+<section class="form-contain">
+    <form data-aos="fade-up">
+      <div class="form-element">
+        <label> Nama Lengkap :</label> 
+        <input type="text" id="no" name="no" placeholder="Masukkan Nama Lengkap" required>
+    </div>      
+
+    <div class="form-element">
+        <label> Alamat :</label>   
+          <textarea id="alamat" name="alamat" cols="15" rows="5"></textarea> 
+    </div>  
+                 
+      
+<div class="form-element">
+  <label> Jenis Kelamin :</label><br>
+      <input type="radio" name="jk" value="Pria" checked/>Pria
+      <input type="radio" name="jk" value="Wanita"/>Wanita
+</div>   
+
+
+<div class="form-element">
+  <label> Email :</label> 
+  <input type="email" id="email" name="email" placeholder="Masukkan email" required/> 
+ 
+</div>  
+       
+
+<div class="form-element">
+  <label> Number :</label>  
+<input type="number" id="tel" name="tel" placeholder="Masukkan telepon" required/> 
+</div>  
+
+<div class="form-element">
+  <label> Tanggal Reservation :</label> 
+<input type="date" id="reservasi"name="" onchange="cektanggal()" required/> 
+</div>  
+
+<div class="form-element">
+    <label> Time :</label> 
+    <input
+       type="text"
+       id="jam"
+       name="jam"
+       placeholder="Masukkan Jam"
+       required>
+</div>           
+
+<div class="form-element">
+    <label> Jumlah Orang :</label>  
+  <input type="jumlah" id="orang" name="orang" placeholder="Masukan Jumlah Orang" required/> 
+  </div>  
+      
+
+<div class="form-element">
+  <input class="submit" type="submit" id="submit" value="Submit"/> 
+</div>
+
+    </form>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+  <footer>
+    <section class="container">
+        <div class="Address">
+            <h3>Address</h3>
+            <p>Gedung Enginering Center Lt. 1, FTUI Kampus Baru UI Depok, Jalan Prof. DR. Ir R. Roosseno, Kukusan, Kecamatan Beji, Kota Depok, Jawa Barat 16425</p>
+        </div>
+        <div class="Contact">
+            <h3>Contact Us</h3>
+            <p>Inquiries (021) 7863508</p>
+            <p>Email:</p>
+            <p>Kuramen.ID@gmail.com</p>
+        </div>
+        <div class="Hours">
+            <h3>Hours</h3>
+            <p>Open from 10:00 AM</p>
+            <p>Closed at 21:00 PM</p>
+        </div>
+    </section>
+    <section class="copyright">Dibuat oleh Kelompok 8</section>
+</footer>
+</html>
+
